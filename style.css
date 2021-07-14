@@ -1,0 +1,293 @@
+body,h1,h2,h3,h4,h5{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Header section */
+.jon-header{
+
+}
+.jon-header span {
+    background: #6278DF;
+    color: #FFF;
+    display: inline-block;
+    height: 38px;
+    width: 39px;
+    font-size: 24px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.jon-header a.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.jon-menu a.nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.header-btn{
+    padding: 4px 20px;
+}
+/* Slider section */
+.slider-section{
+    background: url(./photos/mbr-10.jpg) no-repeat center center;
+    padding: 180px 0px;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0,0.5);
+    z-index: -1;
+
+}
+
+.slider-caption h4 {
+    margin-top: -45px;
+    margin-bottom: 32px;
+}
+.slider-caption h2 {
+    margin-bottom: 40px;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.slider-caption .form-control {
+    padding: 13px 20px;
+}
+    
+.slider-caption .btn { 
+    padding: 13px 20px;   
+    font-weight: 600;
+}
+
+/* number-conter Section */
+.number-conter{}
+
+/* about-section */
+.about-section{
+    background-color: #f7f9ff;
+    padding: 20px 20px;
+}
+
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .lead {
+    font-size: 19px;
+    line-height: 2.2rem;
+}
+
+
+/* Feature Section Css */
+.feature-item{
+    height: 250px;
+    margin-bottom: 22px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.feature-item:hover{
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 30%);
+    transition: 1s;
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.left-img-sec img {
+    height: 100% !important;
+    max-width: inherit;
+    width: auto !important;
+    position: relative;
+    left: -100px;
+}
+.left-test-sec{
+    width: 60%;
+    padding: 17px;
+}
+
+.portfolio-item{}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(45, 0, 247, 0.5);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
+
+/* Pricing Table Section */
+.min-section-bg{
+    background: #f7f9ff;
+}
+
+.pricing-item {
+    background-color: white;
+    text-align: left;
+    padding: 30px;
+    box-shadow: rgba(64, 87, 191, 0.1) 2.5px 4.33px 30px 0px;
+    margin-left: 80px;
+    
+}
+.pricing-item h1 {
+    margin-bottom: 26px;
+    font-size: 35px;
+}
+.pricing-item h5{
+    font-weight: 300;
+    font-size: 17px;
+}
+.pricing-item ul{
+    padding: 20px 0px;
+}
+.pricing-item ul li{
+    list-style: none;
+    margin-bottom: 22px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.pricing-item ul li span{
+    color: blue;
+    padding-right: 10px;
+}
+
+.pricing-item-button a{
+    width: 95%;
+    padding: 12px;
+    font-size: 17px;
+    font-weight: 600;
+    background: white;
+    color: blue;
+    border: none;
+    box-shadow: rgb(64 87 191 / 10%) 15px 12px 30px 0px;
+}
+
+/* Pricing table Hover Part */
+.pricing-item:hover >.pricing-item-button a{
+    background-color: #6278DF;
+    color: #fff;
+    transition: .4s;
+}
+
+/* User section */
+.user-section h1{
+    font-size: 2.8rem;
+}
+.user-section h4{
+    font-size: 25px;
+    font-weight: 300;
+}
+.user-section p{
+    width: 65%;
+}
+
+.symbol-quote span{
+    font-size: 85px;
+    color: #ececec;
+}
+
+.author-info{
+    width: 200px;
+    margin: auto;
+    padding: 40px 0px;
+}
+.author-info img{
+    width: 60px;
+}
+.user-details{
+}
+.user-details h5{
+    font-size: 17px;
+    width: 89%;
+}
+.user-details p{}
+
+/* Team-Member-Section */
+.team-member-details{
+    padding: 32px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    box-shadow: rgb(64 87 191 / 15%) 2.5px 4.33px 30px 0px;
+}
+.team-member-details img{
+    width: 100px;
+    top: -41px;
+    left: 15px;
+    box-shadow: rgb(64 87 191 / 20%) 5px 12px 30px 0px;
+}
+.team-member-details h4{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.team-member-details h5{
+    font-size: 16px;
+}
+.team-member-details p{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.website-button{
+}
+.website-button a{
+    box-shadow: rgb(0 0 0 / 10%) 6px 6px 20px -1px;
+    font-weight: 500;
+    width: 80px;
+    height: 30px;
+    line-height: 18px;
+    border: none;
+}
+
+/* Contact section */
+.contact-section h2{
+    font-size: 37px;
+    font-weight: 400;
+}
+.card-body .email{
+    box-shadow: rgb(0 0 0 / 10%) 6px 6px 20px ;
+    opacity: .5;
+}
+.card-body .name{
+    box-shadow: rgb(0 0 0 / 10%) 6px 6px 20px ;
+    opacity: .5;
+}
+.card-body .phone{
+    box-shadow: rgb(0 0 0 / 10%) 6px 6px 20px ;
+    opacity: .5;
+}
+.card-body .message{
+    box-shadow: rgb(0 0 0 / 10%) 6px 6px 20px ;
+    opacity: .5;
+}
+
+/* Application section */
+.application-section h2{
+    font-size: 37px;
+    font-weight: 400;
+}
